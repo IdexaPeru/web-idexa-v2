@@ -1,0 +1,6 @@
+export const NUMERO_MOVIL = '51922056224'
+export const MSG_WP_DESARROLLO = 'Hola!,%20me%20interesa%20los%20servicios%20de%20desarrollo%20de%20sistmas%20web'
+export const MSG_WP_SOPORTE = 'Hola!,%20me%20interesa%20contar%20con%20su servicio%20de%20soporte%20técnico'
+export const MSG_WP_DISENIO = 'Hola!,%20me%20interesa%20contar%20con%20su servicio%20de%20diseño%20gráfico'
+export const MSG_WP_ASESOR = 'Hola!,%20me%20interesa%20contar%20con%20su servicio%20de%20asesoramiento%20informático'
+export const MSG_WP_GENERAL = 'Hola!,%20me%20interesa%20contar%20con%20su servicio'
