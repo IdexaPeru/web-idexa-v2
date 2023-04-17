@@ -45,6 +45,7 @@ const Servicios = () => {
                 <div className="mt-12 flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {listaServicios.map((item, index) => (
                         <ExploreCard
+                            key={item.id}
                             id={item.id}
                             imgUrl={item.imgUrl}
                             title={item.titulo}

@@ -74,3 +74,7 @@ const Footer = () => {
 }
 
 export default Footer;
+
+
+// git push --set-upstream origin https://IdexaPeru:p3ru@n0RM/IdexaPeru/web-idexa-v2.git main
+

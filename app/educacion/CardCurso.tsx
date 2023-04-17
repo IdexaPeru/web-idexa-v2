@@ -1,3 +1,5 @@
+import ModalSuscrib from "./ModalSuscrib";
+
 const CardCurso = () => {
     return (
         <div className="bg-gray-50 rounded-t-lg w-60 ">
@@ -13,6 +15,7 @@ const CardCurso = () => {
                 <button className="text-fuchsia-500 bg-fuchsia-200  px-3 py-3 self-start hover:bg-fuchsia-300  ease-in-out duration-500">
                     Ver curso
                 </button>
+                <ModalSuscrib/>
             </div>
         </div>
     );
