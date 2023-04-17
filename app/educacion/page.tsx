@@ -32,8 +32,8 @@ const EducacionPage = () => {
                 <div className="mx-auto max-w-7xl flex items-center justify-between  text-lg transition-all  ease-in-out duration-500 z-50 py-2 top-0 bg-white px-10 md:px-20">
                     <div className="flex items-center text-3xl font-poppins  gap-2">
                         <Image
-                             width={300}
-                             height={300}
+                            width={300}
+                            height={300}
                             src={LOGO}
                             className="w-14"
                             alt="logo de idexa peru"
@@ -83,8 +83,8 @@ const EducacionPage = () => {
                 <div className="col-span-6 hidden md:flex   ">
                     <div className="flex items-center justify-center">
                         <Image
-                             width={300}
-                             height={300}
+                            width={300}
+                            height={300}
                             src="/pensando.png"
                             alt=""
                             className="h-full w-full object-cover  lg:-translate-y-10"
@@ -99,9 +99,11 @@ const EducacionPage = () => {
                     <span className="border-t flex-grow"></span>
                 </div>
                 <div className="flex flex-wrap gap-5 col-span-full">
-                    {Array(10).fill('a').map(()=>(
-                        <CardCurso />
-                    ))}
+                    {Array(10)
+                        .fill("a")
+                        .map((item, index) => (
+                            <CardCurso key={index} />
+                        ))}
                 </div>
             </section>
         </div>

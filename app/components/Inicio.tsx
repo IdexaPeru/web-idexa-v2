@@ -39,7 +39,10 @@ const Inicio = () => {
             </div>
             <div className="  relative hidden   justify-center  items-end md:flex md:absolute md:w-1/2 right-5 ">
                 <div className="ball pt-10">
-                    <img src={MOTOR} alt="servicio informatico" />
+                    <Image 
+                       width={300}
+                       height={300}
+                      src={MOTOR} alt="servicio informatico" />
                 </div>
             </div>
         </section>
