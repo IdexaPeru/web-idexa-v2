@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { LOGO } from "../Variables/imagenes";
 
 const items = [
@@ -28,7 +29,10 @@ const Header = () => {
         <header className=" fixed border w-full bg-white z-20">
             <div className="mx-auto max-w-7xl flex items-center justify-between  text-lg transition-all  ease-in-out duration-500 z-50 py-2 top-0 bg-white px-10 md:px-20">
                 <div className="flex items-center text-3xl font-poppins  gap-2">
-                    <img src={LOGO} className="w-14" alt="logo de idexa peru" />
+                    <Image 
+                        width={300}
+                        height={300}
+                    src={LOGO} className="w-14" alt="logo de idexa peru" />
                     <h1>
                         <span className="text-purple_primary">IDE</span>
                         <span className="text-blue_primary">XA</span>

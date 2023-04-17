@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { LOGO } from "../Variables/imagenes";
 import CardCurso from "./CardCurso";
 
@@ -30,7 +31,9 @@ const EducacionPage = () => {
             <header className=" w-full bg-white z-20 py-10">
                 <div className="mx-auto max-w-7xl flex items-center justify-between  text-lg transition-all  ease-in-out duration-500 z-50 py-2 top-0 bg-white px-10 md:px-20">
                     <div className="flex items-center text-3xl font-poppins  gap-2">
-                        <img
+                        <Image
+                             width={300}
+                             height={300}
                             src={LOGO}
                             className="w-14"
                             alt="logo de idexa peru"
@@ -79,7 +82,9 @@ const EducacionPage = () => {
                 </div>
                 <div className="col-span-6 hidden md:flex   ">
                     <div className="flex items-center justify-center">
-                        <img
+                        <Image
+                             width={300}
+                             height={300}
                             src="/pensando.png"
                             alt=""
                             className="h-full w-full object-cover  lg:-translate-y-10"
