@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Educacion = () => {
@@ -7,7 +8,9 @@ const Educacion = () => {
             id="educacion"
         >
             <div className="col-span-4 flex items-center justify-center">
-                <img
+                <Image
+                 width={1000}
+                 height={1000}
                     className="h-full w-full object-cover rounded-2xl"
                     src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681144362/IDEXA%20PERU/Default_adobe_illustrator_vector_2d_cat_programming_in_a_mac_l_3_a3837865-67bb-42e6-906e-1c0f15c802e4_1_zgnlfw.jpg"
                     alt=""

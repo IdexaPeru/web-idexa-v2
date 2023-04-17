@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Clientes = () => {
     return (
         <section className=" ">
@@ -12,28 +14,36 @@ const Clientes = () => {
             </div>
             <div className="flex  justify-between py-10 bg-white flex-wrap px-10 md:px-20 gap-5">
                 <div className="flex justify-center items-center w-52">
-                    <img
+                    <Image
+                        width={208}
+                        height={208}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681218875/IDEXA%20PERU/LOGOS/sanp_mbrmfm.png"
                         alt=""
                     />
                 </div>
                 <div className="flex justify-center items-center w-24">
                     {" "}
-                    <img
+                    <Image
+                        width={208}
+                        height={208}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681218875/IDEXA%20PERU/LOGOS/jr_opcbpf.png"
                         alt=""
                     />
                 </div>
                 <div className="flex justify-center items-center w-24">
                     {" "}
-                    <img
+                    <Image
+                        width={208}
+                        height={208}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681218875/IDEXA%20PERU/LOGOS/rest1_fzjtud.png"
                         alt=""
                     />
                 </div>
                 <div className="flex justify-center items-center w-52">
                     {" "}
-                    <img
+                    <Image
+                        width={208}
+                        height={208}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681218875/IDEXA%20PERU/LOGOS/cooking_fonjet.png"
                         alt=""
                     />

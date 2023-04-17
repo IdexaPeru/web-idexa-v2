@@ -4,6 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
+    domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com', 'img.icons8.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -14,5 +15,4 @@ const nextConfig = {
     ],
   }
 }
-
 module.exports = nextConfig

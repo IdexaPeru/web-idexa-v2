@@ -1,9 +1,13 @@
+import Image from "next/image";
 import ModalSuscrib from "./ModalSuscrib";
 
 const CardCurso = () => {
     return (
         <div className="bg-gray-50 rounded-t-lg w-60 ">
-            <img src="/pensando.png" alt="" className="object-cover" />
+            <Image 
+                width={500}
+                height={500}
+                src="/pensando.png" alt="" className="object-cover" />
             <div className="px-4 flex flex-col gap-y-3">
                 <h3 className="text-lg font-bold">
                     Arquitectura Hexagonal en Frontend

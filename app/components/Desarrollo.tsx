@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MSG_WP_DESARROLLO, NUMERO_MOVIL } from "../Variables/globales";
 
 const Desarrollo = () => {
@@ -39,7 +40,9 @@ const Desarrollo = () => {
                 </div>
             </div>
             <div className="col-span-4 flex items-center justify-center">
-                <img
+                <Image
+                    width={1000}
+                    height={1000}
                     className="h-full w-full object-cover rounded-2xl"
                     src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681144362/IDEXA%20PERU/Leonardo_Diffusion_illustration_hyperrealistic_of_astronaut_fl_2_yqrg3v.jpg"
                     alt=""

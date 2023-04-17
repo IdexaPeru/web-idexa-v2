@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
     MSG_WP_ASESOR,
     MSG_WP_DISENIO,
@@ -17,7 +18,9 @@ const MasServicios = () => {
                 className="grid grid-cols-12 gap-10 scroll-mt-[70px]"
             >
                 <div className="col-span-3 sm:col-span-2">
-                    <img
+                    <Image
+                        width={500}
+                        height={500}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681144362/IDEXA%20PERU/Leonardo_Diffusion_cute_illustration_of_a_happy_computer_engi_3_uhqyni.jpg"
                         alt=""
                         className="rounded-xl h-full w-full object-cover "
@@ -65,7 +68,9 @@ const MasServicios = () => {
                 className="grid grid-cols-12 gap-10 scroll-mt-[70px]"
             >
                 <div className="col-span-3 sm:col-span-2">
-                    <img
+                    <Image
+                        width={500}
+                        height={500}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681144332/IDEXA%20PERU/yelsino_colorful_image_to_present_the_theme_graphic_design_repr_09fac712-f511-4b68-bdd4-6d73a0b015a1_altfvd.png"
                         alt=""
                         className="rounded-xl h-full w-full object-cover "
@@ -113,7 +118,9 @@ const MasServicios = () => {
                 className="grid grid-cols-12 gap-10 scroll-mt-[64px]"
             >
                 <div className="col-span-3 sm:col-span-2">
-                    <img
+                    <Image
+                        width={500}
+                        height={500}
                         src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1681144361/IDEXA%20PERU/DreamShaper_32_deadpool_with_computer_programming_hacker_background_mysteri_6_axfzls.jpg"
                         alt=""
                         className="rounded-xl h-full w-full object-cover"
