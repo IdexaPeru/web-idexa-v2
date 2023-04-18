@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ModalSuscrib from "./ModalSuscrib";
 
-const CardCurso = () => {
+const CardCurso = ({curso}:any) => {
     return (
         <div className="bg-gray-50 rounded-t-lg w-60 ">
             <Image 
@@ -10,16 +10,18 @@ const CardCurso = () => {
                 src="/pensando.png" alt="" className="object-cover" />
             <div className="px-4 flex flex-col gap-y-3">
                 <h3 className="text-lg font-bold">
-                    Arquitectura Hexagonal en Frontend
+                    {curso.titulo}
                 </h3>
                 <p className="text-gray-700">
-                    Aprende y domina el desarrollo de sistemas de manera
-                    profesional, lo que todas las empresas utilizan.
+                    {curso.descripcion}
                 </p>
-                <button className="text-fuchsia-500 bg-fuchsia-200  px-3 py-3 self-start hover:bg-fuchsia-300  ease-in-out duration-500">
+                <a 
+                    target="_blank"
+                    href={curso.url}
+                    className="text-fuchsia-500 bg-fuchsia-200  px-3 py-3 self-start hover:bg-fuchsia-300  ease-in-out duration-500">
                     Ver curso
-                </button>
-                <ModalSuscrib/>
+                </a>
+                {/* <ModalSuscrib/> */}
             </div>
         </div>
     );

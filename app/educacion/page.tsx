@@ -2,27 +2,20 @@ import Image from "next/image";
 import { LOGO } from "../Variables/imagenes";
 import CardCurso from "./CardCurso";
 
-const items = [
+const cursos = [
     {
-        id: "#inicio",
-        titulo: "Inicio",
-        url: "",
+        id: "1",
+        titulo: "OFIMÁTICA",
+        descripcion: 'En este curso, te enseñaré cómo utilizar herramientas esenciales de oficina como Microsoft Word, Excel y PowerPoint para crear documentos, hojas de cálculo y presentaciones de alta calidad.',
+        url: "https://www.youtube.com/playlist?list=PLfIlh8-vI3V6lMGkg7XBy1lHz5Q3cUX9f",
     },
     {
-        id: "#servicios",
-        titulo: "Servicios",
-        url: "",
+        id: "2",
+        titulo: "JAVASCRIPT DESDE QUE SE PUSO BUENO",
+        descripcion: 'Algunos de los temas que cubriremos incluyen: variables, tipos de datos, operadores, estructuras de control de flujo, funciones, objetos, arrays, eventos y manipulación del DOM.',
+        url: "https://www.youtube.com/playlist?list=PLfIlh8-vI3V51xbyXipZHP__DfwMNTnMa",
     },
-    {
-        id: "#educacion",
-        titulo: "Educación",
-        url: "",
-    },
-    {
-        id: "#desarrollo",
-        titulo: "Desarrollo",
-        url: "",
-    },
+
 ];
 
 const EducacionPage = () => {
@@ -99,10 +92,8 @@ const EducacionPage = () => {
                     <span className="border-t flex-grow"></span>
                 </div>
                 <div className="flex flex-wrap gap-5 col-span-full">
-                    {Array(10)
-                        .fill("a")
-                        .map((item, index) => (
-                            <CardCurso key={index} />
+                    {cursos.map((curso) => (
+                            <CardCurso key={curso.id} curso={curso} />
                         ))}
                 </div>
             </section>
