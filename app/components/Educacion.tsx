@@ -63,7 +63,7 @@ const Educacion = () => {
                 </p>
             </div>
             <div className="col-span-full text-fuchsia-500 text-2xl">
-                    <Link href="/educacion" className=" items-center gap-x-3 hover:bg-fuchsia-200 ease-in-out duration-300 p-3 inline-flex">
+                    <Link href="/educacion" className="items-center gap-x-3 hover:bg-fuchsia-300 bg-fuchsia-200 ease-in-out duration-500 p-3 inline-flex">
                         <span>Empieza ahora </span>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

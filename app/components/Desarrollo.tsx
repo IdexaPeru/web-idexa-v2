@@ -66,7 +66,7 @@ const Desarrollo = () => {
                 <a
                     target="_blank"
                     href={`https://wa.me/${NUMERO_MOVIL}?text=${MSG_WP_DESARROLLO}`}
-                    className=" items-center gap-x-3 hover:bg-fuchsia-200 ease-in-out duration-300 p-3 inline-flex"
+                    className=" items-center gap-x-3 hover:bg-fuchsia-300 bg-fuchsia-200 ease-in-out duration-500 p-3 inline-flex"
                 >
                     <span>Contáctar </span>
                     <svg
