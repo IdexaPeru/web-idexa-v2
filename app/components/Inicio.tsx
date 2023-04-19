@@ -6,7 +6,7 @@ const Inicio = () => {
     return (
         <section
             id="inicio"
-            className="flex mx-auto  max-w-7xl px-10 sm:px-20  altoinicio items-center h-[90vh] "
+            className="flex mx-auto  max-w-7xl px-10 sm:px-20  altoinicio items-center h-[90vh] pt-32 sm:pt-10 xl:pt-0"
         >
             <div className=" w-full ">
                 <div className={`w-full mx-auto md:mx-0 md:w-1/2 `}>

@@ -7,7 +7,7 @@ const Educacion = () => {
             className="grid grid-cols-12 gap-10 py-10 max-w-7xl px-10 md:px-20 mx-auto scroll-mt-[64px] "
             id="educacion"
         >
-            <div className="col-span-4 flex items-center justify-center">
+            <div className="col-span-4 sm:flex items-center justify-center hidden">
                 <Image
                  width={1000}
                  height={1000}
@@ -48,7 +48,7 @@ const Educacion = () => {
                     </p>
                 </div>
             </div>
-            <div className="col-span-full text-lg sm:text-xl flex flex-col gap-y-5 ">
+            <div className="col-span-full text-lg sm:text-xl flex flex-col gap-y-5 pr-32 sm:pr-0">
                 <p className="">
                     Mejora tus habilidades informáticas con nuestra variedad de
                     cursos en ofimática, redes y desarrollo web. Aprende

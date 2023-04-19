@@ -31,7 +31,7 @@ const MasServicios = () => {
                         Soluciones tecnológicas al instante: <br /> Soporte
                         Técnico
                     </h3>
-                    <p className="text-lg leading-relaxed sm:text-xl">
+                    <p className="text-lg leading-relaxed sm:text-xl pr-10 sm:pr-0">
                         Nuestro equipo de expertos en Soporte Técnico está
                         disponible en todo momento para brindar soluciones
                         tecnológicas rápidas y eficientes a cualquier problema
@@ -81,7 +81,7 @@ const MasServicios = () => {
                         Impacta con diseños creativos personalizados: <br />{" "}
                         Diseño Grafico
                     </h3>
-                    <p className="text-lg leading-relaxed sm:text-xl">
+                    <p className="text-lg leading-relaxed sm:text-xl pr-10 sm:pr-0">
                         Gráficos altamente creativos y experimentados están a tu
                         disposición para ofrecerte soluciones de diseño
                         personalizadas que harán destacar tu marca y capturarán
@@ -131,7 +131,7 @@ const MasServicios = () => {
                         Maximiza tu potencial digital: <br /> Asesoramiento
                         Informático
                     </h3>
-                    <p className="text-lg leading-relaxed sm:text-xl">
+                    <p className="text-lg leading-relaxed sm:text-xl pr-10 sm:pr-0">
                         Nuestros asesores informáticos están para ayudarte a
                         aprovechar al máximo las herramientas digitales, desde
                         optimizar procesos hasta ofrecer soluciones a medida que

@@ -24,7 +24,7 @@ const firebaseConfig = {
 
 export default function Home() {
     return (
-        <main className="scroll-smooth">
+        <main className="scroll-smooth overflow-hidden">
             <Header />
             <Inicio />
             <Servicios />

@@ -39,7 +39,7 @@ const Desarrollo = () => {
                     </p>
                 </div>
             </div>
-            <div className="col-span-4 flex items-center justify-center">
+            <div className="col-span-4 sm:flex items-center justify-center hidden">
                 <Image
                     width={1000}
                     height={1000}
@@ -48,7 +48,7 @@ const Desarrollo = () => {
                     alt=""
                 />
             </div>
-            <div className="col-span-full text-lg sm:text-xl flex flex-col gap-y-5">
+            <div className="col-span-full text-lg sm:text-xl flex flex-col gap-y-5 pr-32 sm:pr-0">
                 <p className="">
                     Mejora tus habilidades informáticas con nuestra variedad de
                     cursos en ofimática, redes y desarrollo web. Aprende

@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       <div className="px-10 sm:px-20">
         <hr />
-        <div className="pt-5 flex justify-between">
+        <div className="pt-5 flex justify-between flex-col gap-y-3 sm:flex-row">
             <p>IDEXA PERU S.A.C - RUC:20608361872</p>
             <p>Idexa © 2023. Todos los derechos reservados</p>
             </div>
