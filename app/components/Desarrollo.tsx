@@ -49,17 +49,29 @@ const Desarrollo = () => {
                 />
             </div>
             <div className="col-span-full text-lg sm:text-xl flex flex-col gap-y-5 pr-32 sm:pr-0">
-                <p className="">
-                    Mejora tus habilidades informáticas con nuestra variedad de
-                    cursos en ofimática, redes y desarrollo web. Aprende
-                    habilidades esenciales y técnicas avanzadas con instructores
-                    expertos y recursos de alta calidad.
-                </p>
                 <p>
-                    Obtén una ventaja competitiva en tu carrera y mejora tu vida
-                    diaria con nuestro catálogo de cursos. Descubre cómo el
-                    aprendizaje de nuevas habilidades informáticas puede abrir
-                    nuevas oportunidades y mejorar tus perspectivas de futuro.
+                    Si estás buscando una solución personalizada para el
+                    desarrollo de sistemas web, ¡somos tu mejor opción! En
+                    nuestro equipo, contamos con expertos en programación web
+                    que pueden ayudarte a crear soluciones a medida para tu
+                    negocio.
+                </p>
+
+                <p>
+                    Nuestro enfoque personalizado significa que trabajaremos
+                    contigo para entender tus necesidades específicas de negocio
+                    y crear una solución que se adapte perfectamente a tus
+                    necesidades. Nos aseguramos de que nuestra solución sea
+                    escalable, fácil de mantener y esté diseñada para cumplir
+                    con tus objetivos a largo plazo.
+                </p>
+
+                <p>
+                    Con nuestra experiencia en el desarrollo de sistemas web,
+                    estamos seguros de que podemos ofrecerte una solución a
+                    medida que satisfaga tus necesidades y supere tus
+                    expectativas. ¡Contáctanos hoy y descubre cómo podemos
+                    ayudarte a llevar tu negocio al siguiente nivel en línea!
                 </p>
             </div>
             <div className="col-span-full text-fuchsia-500 text-2xl">
